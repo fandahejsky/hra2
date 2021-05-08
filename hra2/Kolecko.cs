@@ -26,7 +26,7 @@ namespace hra2
             SolidBrush b = new SolidBrush(barva);
             g.FillEllipse(b, x-velikost/2, y-velikost/2, velikost, velikost);
         }
-
+        
         protected override void MouseUp(Point mousePos, MouseButtons button)
         {
             if(button == MouseButtons.Left)
